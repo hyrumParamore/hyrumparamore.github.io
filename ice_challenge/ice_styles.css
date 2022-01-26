@@ -1,0 +1,36 @@
+body {
+    
+    background-color: rgb(252, 166, 201);
+    margin: 0em 38%;
+}
+
+#list {
+    color: black;
+    font-weight: bold;
+    font-size: small;
+    padding-inline-end: 10px;
+    text-align: center;
+}
+
+#quote {
+    
+}
+
+#img {
+    width: 40%;
+    height: 40%;
+
+    object-fit: contain;
+    
+    
+}
+footer {
+    text-align: center;
+}
+ol {
+    text-align: left;
+}
+
+#quo {
+    color: white;
+}

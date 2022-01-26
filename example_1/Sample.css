@@ -1,0 +1,36 @@
+
+body {
+    background-color: #FA8072
+}
+h1 {
+    background-color: rgb(63, 187, 224);
+    text-align: center;
+    padding: 10px;
+
+}
+p{
+    color: white;
+    padding: 10px;
+}
+.fancy {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: gold;
+    border :1px solid white;
+    padding: 50px 10px 100px 200px;
+    text-align: center;
+    margin: 40px;
+    
+}
+#david {
+    width: 100px;
+
+}
+.superfancy {
+    font-family: 'Oooh Baby', cursive;
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
