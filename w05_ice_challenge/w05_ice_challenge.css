@@ -1,0 +1,18 @@
+body {
+background-color: #737373;
+text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 40px 15%;
+    
+}
+
+.circle {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 10px solid #444444;
+    
+}
