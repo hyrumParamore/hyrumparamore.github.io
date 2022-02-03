@@ -1,6 +1,13 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rock+Salt&display=swap');
 
 
+:root {
+    --heading-font: "Rock Salt";
+    --paragraph-font: Open-Sans, Helvetica, sans-serif;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -11,34 +18,55 @@ nav a{
     text-align: left;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 #hero {
    text-align: center;
+   
 }
 
 #hero-img {
     width: 100%;
 }
 
-#hero-msg h1, #hero-msg h4 {
+#hero-msg h1  {
     text-align: center;
     width: 100%;
 }
+
+.home-title {
+    font-size: 2em;
+    font-family: 'Rock Salt', 'Helventica', 'sans-serif';
+    margin-top: 10px;
+    color: #172A3A;
+}
+
+h2 {
+    margin: 0;
+} 
+    
+
 .button-box {
     text-align: center;
 }
 
 main section {
     text-align: center;
+    box-sizing: border-box;
 }
 
 #background {
     height: 725px;
     background-color: #74B3CE;
+    margin-bottom: 150px;   /* mountian picture margin top (space) */
+    
 }
 
 body {
     background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -52,6 +80,9 @@ nav a:hover {
 .book, .join {
     background-color: #74B3CE;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -60,20 +91,30 @@ nav a:hover {
 
 .msg {
     background-color: #172A3A;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px; /* Mountian picture bottom margin (space) */
 }
 
 footer {   
     background-color: #172A3A;
     text-decoration: none;
     color: #74B3CE;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
+
 footer h3 a:hover {
     text-decoration: underline;
     color: #74B3CE;
 }
+footer .social img {
+    padding-top: 15px;
+}
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
@@ -82,10 +123,29 @@ footer h3 a:hover {
 h4 {
     color: black;
 }
+
 .msg h2 {
     color: #74B3CE;
 }
 
 .msg p {
     color: #74B3CE;
+    padding-bottom: 15px;
 }
+
+#logo_link {
+    padding-top: 5px;
+
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #74B3CE;
+}
+
+.mountians {
+    padding-top: 15px;
+}
+ 
