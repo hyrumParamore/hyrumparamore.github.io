@@ -5,16 +5,13 @@ Fonts are separated by a | */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
+
 @font-face {
-    font-family: 'hyliaserifbeta-regular-demo';
-      src: url('fonts/hyliaserifbeta-regular-demo.eot'); /* IE9 Compat Modes */
-      src: url('fonts/hyliaserifbeta-regular-demo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('fonts/hyliaserifbeta-regular-demo.woff2') format('woff2'), /* Super Modern Browsers */
-          url('fonts/hyliaserifbeta-regular-demo.woff') format('woff'), /* Pretty Modern Browsers */
-          url('fonts/hyliaserifbeta-regular-demo.ttf')  format('truetype'), /* Safari, Android, iOS */
-          url('fonts/hyliaserifbeta-regular-demo.svg#svgFontName') format('svg'); /* Legacy iOS */
-      font-weight: 400;
-      font-style: normal;
+    font-family: 'hylia_serif_betaregular';
+    src: url('fonts/hyliaserifbeta-regular-webfont.woff2') format('woff2'),
+         url('fonts/hyliaserifbeta-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 :root {
@@ -28,7 +25,7 @@ Fonts are separated by a | */
   ---light-green: #92C582;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "hyliaserifbeta-regular-demo";
+  --heading-font: 'hylia_serif_betaregular';
   --paragraph-font: 'Roboto', sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -47,11 +44,18 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
+  background-color: var(--white-color);
   max-width: 1200px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  
+}
+
+main {
+    background-color: var(--secondary-color);
+
 }
 img {
   display: block;
@@ -73,11 +77,15 @@ header {
   padding: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);
-  background-color: var(--paragraph-background-color);
-  font-family: "hyliaserifbeta-regular-demo";
+  background-color: var(--primary-color);
+  font-family: 'hylia_serif_betaregular';
+  opacity: 90%;
+  
 }
+
 header > h1, header > h2 {
-  color: var(--headline-color-on-color);
+  color: var(--secondary-color);
+  opacity: 100%;
 }
 
 p {
@@ -118,7 +126,7 @@ p.colored {
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: var(--primary-color);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -126,6 +134,7 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
+  opacity: 90%;
 
 }
 nav a {
@@ -133,14 +142,17 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  font-size: 24px;
+  font-family: var(--heading-font);
+  
 
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+    color: var(--accent2-color);
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  background-color: var(--accent1-color);
 }
 
 .sitemap {
