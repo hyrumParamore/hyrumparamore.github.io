@@ -208,6 +208,7 @@ nav a:hover {
 
 
 img {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 40%;
+  max-height: 40%;
+  object-fit: scale-down;
 }
