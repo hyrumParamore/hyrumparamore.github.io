@@ -37,12 +37,20 @@ footer {
     color: white;
     font-size: small;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 main {
     background-color: white;
+    grid-column: 2/3;
+    text-align: center;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    max-width: 350%;
+    max-width: 350px;
+    
+}
+.border {
+    border-right: 1px solid #597bb6;
+    
 }
