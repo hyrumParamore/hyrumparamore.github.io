@@ -110,7 +110,8 @@ header {
     width: 100%;
     text-align: center;
     color: var(--accent2-color);
-    font-family: var(--paragraph-font);
+    font-family: var(--heading-font);
+    font-weight: lighter;
     text-decoration: none;
     margin-top: 40px;
 }
