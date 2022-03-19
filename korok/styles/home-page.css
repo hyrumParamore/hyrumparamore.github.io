@@ -68,13 +68,14 @@ html {
 .page-names, .page-names2 {
     display: flex;
     
+    
     /* box-shadow: 5px 5px 20px black; */
     /* border: 2px solid  var(--secondary-color); */
     margin: 30px 10px 150px 20px;
     text-align: center;
     justify-content: center;
     align-items:center;
-
+    
     padding: 20px;
     font-size: 30px;
     font-weight: lighter;
@@ -211,7 +212,7 @@ p {
 }
 .image_2_box {
     background-color: rgba(0, 0, 0, 60%);
-    height: 400px;
+    height: 425px;
     margin: 40px 50px 20px 50px; 
     grid-column: 2/4;
     grid-row: 7/8;
@@ -233,7 +234,7 @@ p {
 } 
 .image_3_box {
     background-color: rgba(0, 0, 0, 60%);
-    height: 400px;
+    height: 425px;
     margin: 40px 50px 20px 50px; 
     grid-column: 5/7;
     grid-row: 7/8;
@@ -254,7 +255,7 @@ p {
 }
 .image_4_box {
     background-color: rgba(0, 0, 0, 60%);
-    height: 400px;
+    height: 425px;
     margin: 40px 50px 20px 50px; 
     grid-column: 8/10;
     grid-row: 7/8;
@@ -276,9 +277,17 @@ section h2 {
 }
 
 
+div i {
+    color: white;
+    text-align: center;
+}
 
-
-
+section, i {
+    color: white;
+    text-align: center;
+    vertical-align:baseline;
+    
+}
 
 
 
