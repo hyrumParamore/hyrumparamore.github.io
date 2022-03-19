@@ -264,7 +264,17 @@ p {
 
 
 
+div i {
+    color: white;
+    text-align: center;
+}
 
+section, i {
+    color: white;
+    text-align: center;
+    vertical-align:baseline;
+    
+}
 
 
 
@@ -306,3 +316,5 @@ footer .social img {
     font-family: var(--heading-font);
     font-weight: lighter;
 }
+
+
